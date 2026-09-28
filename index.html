@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiteja | User Friendly Web Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Saiteja</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+
+            <h1>Build. Create. <span>Innovate.</span></h1>
+
+            <p>
+                A simple, modern and responsive user-friendly webpage
+                created using HTML, CSS and JavaScript.
+            </p>
+
+            <div class="buttons">
+                <a href="#services" class="btn primary">Explore</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <p class="section-title">ABOUT</p>
+
+            <h2>Who I Am</h2>
+
+            <p class="about-text">
+                I am an Electronics and Communication Engineering student
+                interested in Hardware, Embedded Systems, IoT and Web
+                Development. I enjoy creating practical projects that
+                combine technology and real-world applications.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services-section">
+
+        <div class="container">
+
+            <p class="section-title">WHAT I DO</p>
+
+            <h2>My Skills</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Creating responsive and user-friendly websites
+                        using HTML, CSS and JavaScript.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">⚙️</div>
+                    <h3>Embedded Systems</h3>
+                    <p>
+                        Working with Arduino, ESP32, sensors,
+                        actuators and embedded hardware.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">📡</div>
+                    <h3>IoT</h3>
+                    <p>
+                        Developing IoT projects using sensors,
+                        microcontrollers and communication technologies.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <div class="container">
+
+            <p class="section-title">CONTACT</p>
+
+            <h2>Get In Touch</h2>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn primary">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="formMessage"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Saiteja. All Rights Reserved.</p>
+
+        <div class="social-links">
+            <a href="https://github.com/Saiteja9110" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                LinkedIn
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
